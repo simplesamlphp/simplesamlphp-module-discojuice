@@ -1,0 +1,16 @@
+{
+    "name": "simplesamlphp/simplesamlphp-module-discojuice",
+    "description": "A SimpleSAMLphp module to provide a very flexible User Interface implementing an IdP Discovery Service.",
+    "type": "simplesamlphp-module",
+    "keywords": [ "simplesamlphp", "modules" ],
+    "authors": [
+        {
+            "name": "Andreas Åkre Solberg",
+            "email": "andreas.solberg@uninett.no"
+        }
+    ],
+    "require": {
+        "simplesamlphp/composer-module-installer": "~1.0"
+    }
+}
+
