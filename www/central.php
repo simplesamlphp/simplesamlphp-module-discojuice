@@ -25,7 +25,7 @@ $hostedConfig = array(
 	$entityid,
 	
 	// Url to response
-	SimpleSAML_Module::getModuleURL('discojuice/response.html'),
+	SimpleSAML\Module::getModuleURL('discojuice/response.html'),
 	
 	// Set of feeds to subscribe to.
 	$djconfig->getArray('feeds', array('edugain')), 
@@ -36,7 +36,7 @@ $hostedConfig = array(
 /*
 	"a.signin", "Teest Demooo",
     "https://example.org/saml2/entityid",
-    "' . SimpleSAML_Module::getModuleURL('discojuice/discojuice/discojuiceDiscoveryResponse.html') . '", ["kalmar"], "http://example.org/login?idp="
+    "' . SimpleSAML\Module::getModuleURL('discojuice/discojuice/discojuiceDiscoveryResponse.html') . '", ["kalmar"], "http://example.org/login?idp="
 */
 
 $t = new SimpleSAML_XHTML_Template($config, 'discojuice:central.tpl.php');
