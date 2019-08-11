@@ -11,7 +11,7 @@
 
         <ignoreFiles>
             <!-- Ignore deprecated PHP-templates - Remove for 2.0 -->
-            <file name="modules/**/templates/*.tpl.php" />
+            <file name="templates/*.tpl.php" />
         </ignoreFiles>
     </projectFiles>
 

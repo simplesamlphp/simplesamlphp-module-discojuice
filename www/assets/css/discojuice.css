@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background: #ccc;
+}
+
+p#signin {
+    display: none;
+    text-align: right
+}
