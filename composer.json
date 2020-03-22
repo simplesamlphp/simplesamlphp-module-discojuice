@@ -2,6 +2,7 @@
     "name": "simplesamlphp/simplesamlphp-module-discojuice",
     "description": "A SimpleSAMLphp module to provide a very flexible User Interface implementing an IdP Discovery Service.",
     "type": "simplesamlphp-module",
+    "license": "LGPL-2.1-or-later",
     "keywords": [ "simplesamlphp", "modules" ],
     "authors": [
         {
