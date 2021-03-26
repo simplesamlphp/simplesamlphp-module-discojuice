@@ -14,7 +14,8 @@ $entityid = $_REQUEST['entityID'];
 
 // Return to...
 $returnidparam = !empty($_REQUEST['returnIDParam']) ? $_REQUEST['returnIDParam'] : 'entityID';
-$href = \SimpleSAML\Utils\HTTP::addURLParameters(
+$httpUtils = new \SimpleSAML\Utils\HTTP();
+$href = $httpUtils->addURLParameters(
     $_REQUEST['return'],
     [$returnidparam => '']
 );
