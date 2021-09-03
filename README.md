@@ -29,3 +29,11 @@ want to use a stable version of the module.
 
 The module is enabled by default. If you want to disable the module once installed, you just need to create a file named
 `disable` in the `modules/discojuice/` directory inside your SimpleSAMLphp installation.
+
+To enable the discovery service in SimpleSAMLphp, set the `discoURL` parameter in your `authsources.php`:
+
+```php
+    'default-sp' => [
+        'saml:SP',
+        'discoURL' => 'https://sp1.example.org/simplesaml/module.php/discojuice/central.php',
+```
